@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="status">
+        <enum name="selected" value="0" />
+        <enum name="available" value="1" />
+        <enum name="unavailable" value="2" />
+
+    </attr>
+    <declare-styleable name="SeatView">
+        <attr name="status"  />
+        <attr name="rectWidth" format="dimension"/>
+        <attr name="rectHeight" format="dimension"/>
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="angleX" format="integer"/>
+        <attr name="angleY" format="integer"/></declare-styleable>
+</resources>
